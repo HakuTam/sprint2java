@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atticus Calculadora</title>
+    <link rel="stylesheet" href="./style2.css" type="text/css">
+</head>
+
+<body>
+
+    <div id="div1">
+        <p>Atticus</p>
+        <p id="p1">Calculadora</p>
+    </div>
+
+    <div id="calculo">
+        Consumo de energia em Joule<input id="consumo-energia" type="float">
+        <br>
+        Distancia percorrida pelo trasporte em kilometros<input id="distancia-transporte" type="float">
+        <br>
+        Consumo de material em kilo<input id="consumo-material" type="float">
+        <br>
+        <input type="submit" onclick="calcularPegadaCarbono()" value="calcular">
+    </div>
+    
+    <br>
+
+    <div id="resultado"></div>
+    
+
+
+
+
+
+
+    <script src="script2.js"></script>
+</body>
+
+</html>

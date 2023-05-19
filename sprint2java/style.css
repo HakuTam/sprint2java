@@ -1,0 +1,26 @@
+body {
+    background-image: linear-gradient(to right, green, aqua);
+}
+
+#titulo {
+    display: block;
+    margin: 0 auto;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#BemVindo {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center
+}
+
+#menu {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    display: grid;
+}
