@@ -9,7 +9,8 @@ body{
 }
 #p1{
     font-size: 30px;
-    
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 #calculo {
     display: grid;
@@ -25,5 +26,105 @@ body{
     font-size: 25px;
 
 }
+
+#botao-home{
+    display:inline-block;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gray;
+    color: blanchedalmond;
+}
+
+#botao-home:hover{
+    background-color: gray;
+    color: #fff;
+}
+/**=================================ACIMA(CALCULADORA)===============*/
+
+#titulo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-decoration: underline;
+
+}
+
+#contato{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#menu2 {
+    text-align: center;
+  }
+  
+  #menu2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #menu2 li {
+    display: inline-block;
+  }
+  
+  #menu2 button {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: gray;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  #menu2 button:hover {
+    background-color: #ddd;
+  }
+
+  #menu3 {
+    text-align: center;
+  }
+  
+  #menu3 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #menu3 li {
+    display: inline-block;
+  }
+  
+  #menu3 button {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: gray;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  #menu3 button:hover {
+    background-color: #ddd;
+  }
+  
+.container{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.container input{
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 30px;
+  width: 300px;
+}
+
+.container label{
+  display:block;
+  padding: 8px;
+}
+
 
 
