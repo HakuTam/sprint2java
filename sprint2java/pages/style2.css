@@ -3,15 +3,11 @@ body{
 }
 #div1{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman';
     font-size: 50px;
     text-decoration: underline;
 }
-#p1{
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-}
+
 #calculo {
     display: grid;
     margin: 0;
@@ -27,18 +23,6 @@ body{
 
 }
 
-#botao-home{
-    display:inline-block;
-    font-size: 15px;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: gray;
-    color: blanchedalmond;
-}
-
-#botao-home:hover{
-    background-color: gray;
-    color: #fff;
-}
 /**=================================ACIMA(CALCULADORA)===============*/
 
 #titulo{
@@ -56,8 +40,15 @@ body{
 }
 
 #menu2 {
+    display:flex;
+    margin:0 auto;
+    width: 450px;
+    height: 60px;
+    background-color: rgb(71, 71, 71);
+    border: 1px solid black;
     text-align: center;
-  }
+    justify-content: center;
+}
   
   #menu2 ul {
     list-style: none;
@@ -65,47 +56,60 @@ body{
     margin: 0;
   }
   
-  #menu2 li {
-    display: inline-block;
+  #menu2 ul li {
+    display: inline;
+    padding: 20px;
   }
   
   #menu2 button {
+    width: 100px;
+    height: 35px;
     text-decoration: none;
-    padding: 5px 10px;
-    background-color: gray;
+    margin-top: 12px;
+    padding: 10px;
+    background-color: black;
+    color: white;
     border: none;
     border-radius: 4px;
   }
   
   #menu2 button:hover {
     background-color: #ddd;
+    color: black;
+    cursor: pointer;  
   }
 
-  #menu3 {
-    text-align: center;
-  }
-  
-  #menu3 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #menu3 li {
-    display: inline-block;
-  }
-  
-  #menu3 button {
-    text-decoration: none;
-    padding: 5px 10px;
-    background-color: gray;
-    border: none;
-    border-radius: 4px;
-  }
-  
-  #menu3 button:hover {
-    background-color: #ddd;
-  }
+#consumo-energia, #distancia-transporte, #consumo-material, #nome, #email, #telefone {
+    width: 500px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+label {
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+h1 {
+  margin-top: 70px;
+  margin-bottom: 25px;
+  font-size: 40px;
+}
+
+#button1 {
+  margin-top: 50px;
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  font-size: 25px;
+  background-color: black;
+  color: orange;
+}
+
+#button1:hover {
+  cursor:pointer;
+}
   
 .container{
     text-align: center;
@@ -126,5 +130,24 @@ body{
   padding: 8px;
 }
 
+.subtitulo1 {
+  font-size: 25px;
+  margin: 15px;
+}
 
+#nomes {
+  list-style-type: square;
+}
 
+.text_column {
+  font-size: 23px;
+  text-align: justify;
+  font-family: Arial;
+  margin: 15px;
+}
+
+#quemsomos ul {
+  margin-top: 10px;
+  font-family: Arial;
+  font-size: 23px;
+}
