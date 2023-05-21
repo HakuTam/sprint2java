@@ -12,8 +12,6 @@ document.getElementById("botao-sobrenos").onclick = function () {
     location.href = "http://127.0.0.1:5500/sprint2java/pages/sobrenos.html";
 }
 
-
-
 // Função para calcular a pegada de carbono
 function calcularPegadaCarbono() {
     // Obter os valores dos campos do formulário
