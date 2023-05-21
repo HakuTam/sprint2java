@@ -12,26 +12,34 @@
 <body>
 
     <div id="div1">
-        <p>Atticus</p>
-        <p><button id="botao-home">Home</button></p>
+        <p>Grupo Atticus</p>
     </div>
     
-    <div id="menu3">
+    <div id="menu2">
         <ul>
-            <li><button id="botao-contato">Contato</button></li>
+            <li><button id="botao-contato">Contato</button></li>        
+            <li><button id="botao-home">Home</button></li>
+            <li><button id="botao-sobrenos">Sobre nós</button></li>
         </ul>
     </div>
 
-    <p id="p1">Calculadora</p>
 
-    <div id="calculo">
-        Consumo de energia em Joule<input id="consumo-energia" type="float">
+    <div id="contato">
+        <h1>Calculadora</h1>
+    </div>
+
+
+    <div class="container">
+        <label>Consumo de energia (em Joule):</label>
+        <input id="consumo-energia" type="float" required>
         <br>
-        Distancia percorrida pelo trasporte em kilometros<input id="distancia-transporte" type="float">
+        <label>Distancia percorrida pelo trasporte (em Km):</label>
+        <input id="distancia-transporte" type="float" required>
         <br>
-        Consumo de material em kilo<input id="consumo-material" type="float">
+        <label>Consumo de material (em Kg):</label>
+        <input id="consumo-material" type="float" required>
         <br>
-        <input type="submit" onclick="calcularPegadaCarbono()" value="calcular">
+        <input id="button1" type="submit" onclick="calcularPegadaCarbono()" value="calcular">
     </div>
 
     <br>
