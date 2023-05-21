@@ -1,24 +1,17 @@
 //criando os botoes
 
-window.onload = function goToContato() {
-    document.getElementById("botao-contato").onclick = function () {
-        location.href = "http://127.0.0.1:5500/sprint2java/pages/contato.html";
-    }
-}
-
 document.getElementById("botao-home").onclick = function () {
-    location.href = "http://127.0.0.1:5500/sprint2java/index.html";
+    location.href = "http://127.0.0.1:5501/sprint2java/index.html";
 }
-
-
-document.getElementById("botao-calculadora").onclick = function () {
-    location.href = "http://127.0.0.1:5500/sprint2java/pages/calculadora.html";
-}
-
 
 document.getElementById("botao-contato").onclick = function () {
-    location.href = "http://127.0.0.1:5500/sprint2java/pages/contato.html";
+    location.href = "http://127.0.0.1:5501/sprint2java/pages/contato.html";
 }
+
+document.getElementById("botao-sobrenos").onclick = function () {
+    location.href = "http://127.0.0.1:5501/sprint2java/pages/sobrenos.html";
+}
+
 
 
 // Função para calcular a pegada de carbono
@@ -48,29 +41,7 @@ function calcularPegadaCarbono() {
         // Exibir o resultado
         document.getElementById('resultado').textContent = `Sua pegada de carbono é de ${pegadaCarbonoTotal} toneladas de CO2e por ano.`;
 }
-    // fazendo formulario 
-function validarForm() {
-    var nome = document.getElementById("nome").value;
-    var email = document.getElementById("email").value;
-    var telefone = document.getElementById("telefone").value;
 
-    if (telefone == "") {
-        alert("Por favor, digite o seu nome.");
-        return false;
-    }
-
-    if (nome == "") {
-        alert("Por favor, digite o seu nome.");
-        return false;
-    }
-
-    if (email == "") {
-        alert("Por favor, digite o seu email.");
-        return false;
-    }
-
-    return true;
-}
 
 
 
