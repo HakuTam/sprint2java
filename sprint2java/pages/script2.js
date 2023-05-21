@@ -1,19 +1,25 @@
-const BotaoHome = document.getElementById('botao-home');
+//criando os botoes
 
-BotaoHome.addEventListener('click', () => {
-    window.location.href = 'http://127.0.0.1:5500/sprint2java/index.html';
-});
-const BotaoCalculadora = document.getElementById('botao-calculadora');
+window.onload = function goToContato() {
+    document.getElementById("botao-contato").onclick = function () {
+        location.href = "http://127.0.0.1:5500/sprint2java/pages/contato.html";
+    }
+}
 
-BotaoCalculadora.addEventListener('click', () => {
-    window.location.href = 'http://127.0.0.1:5500/sprint2java/pages/calculadora.html';
-});
+document.getElementById("botao-home").onclick = function () {
+    location.href = "http://127.0.0.1:5500/sprint2java/index.html";
+}
 
-const BotaoContato = document.getElementById('botao-contato');
 
-BotaoContato.addEventListener('click', () => {
-    window.location.href = 'http://127.0.0.1:5500/sprint2java/pages/contato.html';
-});
+document.getElementById("botao-calculadora").onclick = function () {
+    location.href = "http://127.0.0.1:5500/sprint2java/pages/calculadora.html";
+}
+
+
+document.getElementById("botao-contato").onclick = function () {
+    location.href = "http://127.0.0.1:5500/sprint2java/pages/contato.html";
+}
+
 
 // Função para calcular a pegada de carbono
 function calcularPegadaCarbono() {
